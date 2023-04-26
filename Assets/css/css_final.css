@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+html{
+    font-size:24px;
+}
+
+.container{
+    display:flex;
+    height:100vh;
+}
+.left-side{
+    width:55%;
+    margin-left: 5vw;
+    margin-right: 15vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    gap:35vh;
+    padding-bottom:5vh;
+}
+.right-side{
+    font-size: 28;
+    
+    display:flex;
+    width:45%;
+}
+.navbar{
+    display:flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    margin-left: 60vw;
+    margin-right: 5vw;
+    margin-bottom: 0rem;
+    
+    gap:5vw;
+    padding-right:5vw;
+    padding-top:0 ;
+}
+.content{
+    display:flex;
+    flex-direction:column;
+    gap:2vh;
+}
+.buttons{
+    display:flex;
+    gap:5vw;
+    font-size:0.7rem;
+}
+.hire-btn,.view-btn{
+    padding:2vh 3vw;
+    color: white;
+}
+.hire-btn{
+    background-color: #3FDF63;
+}
+.view-btn{
+    background-color: white;
+    border:black;
+    color:black;
+}
+.text-1,.text-2{
+    font-size:1.5rem;
+}
+.main-text,.buttons{
+    font-size:0.7rem;
+}
+.ornament-1{
+    
+}
+.main-img{
+    position:absolute;
+    bottom:0%;
+    right:8%;
+}
+.card{
+}

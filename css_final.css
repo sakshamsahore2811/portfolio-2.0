@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+html{
+    font-size:24px;
+}
+
+.container{
+    display:flex;
+    height:100vh;
+}
+.text-1{
+    position: absolute;
+    width: 582px;
+    height: 97px;
+    left: 61px;
+    top: 215px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 51px;
+    color: #000000;
+    }
+.text-2{
+    position: absolute;
+    width: 582px;
+    height: 97px;
+    left: 61px;
+    top: 263px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 51px;
+    color: #008b27;
+}
+.main-text{
+position: absolute;
+width: 585px;
+height: 279px;
+left: 58px;
+top: 315px;
+gap:50px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 35px;
+
+color: #838383;
+
+
+} 
+.left-side{
+    width:55%;
+    margin-left: 5vw;
+    margin-right: 15vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    gap:35vh;
+    padding-bottom:5vh;
+}
+.right-side{
+    display:flex;
+    width:100%;
+}
+.navbar{
+position: absolute;
+width: 98px;
+height: 41px;
+left: 788px;
+top: 23px;
+display: flex;
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 36px;
+gap: 5vw;
+color: #000000;
+
+
+.content{
+    display:flex;
+    flex-direction:column;
+    gap:2vh;
+}
+.buttons{
+    display:flex;
+    gap:5vw;
+    font-size:0.7rem;
+}
+.hire-btn,.view-btn{
+    padding:2vh 3vw;
+    color: white;
+}
+.hire-btn{
+    background-color: #3FDF63;
+}
+.view-btn{
+    /* Frame 1 */
+
+position: absolute;
+width: 236px;
+height: 84px;
+left: 473px;
+top: 692px;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 236px;
+height: 84px;
+left: 0px;
+top: 0px;
+
+background: #3FDF6C;
+border-radius: 15px;
+
+}
+.text-1,.text-2{
+    font-size:1.5rem;
+}
+.text-3{
+position: absolute;
+width: 370px;
+height: 42px;
+left: 58px;
+top: 905px;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 46px;
+color: #000000;
+}
+
+.main-text,.buttons{
+    font-size:0.7rem;
+}
+.ornament-1{
+    
+}
+.main-img{
+    position:absolute;
+    bottom:0%;
+    right:8%;
+}
+.card{
+
+}
